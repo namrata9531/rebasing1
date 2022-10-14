@@ -13,6 +13,10 @@ class MainActivity : AppCompatActivity() {
         super.onStart()
     }
 
+    override fun onPause() {
+        super.onPause()
+    }
+
     override fun onDestroy() {
         super.onDestroy()
     }
